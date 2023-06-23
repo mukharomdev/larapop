@@ -112,7 +112,7 @@
       </symbol>
     </svg>
 
-     <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
       <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
               id="bd-theme"
               type="button"
@@ -153,18 +153,18 @@
     <div>
       <h3 class="float-md-start mb-0">Cover</h3>
       <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
-        <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
+        <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Beranda</a>
+        <a class="nav-link fw-bold py-1 px-0" href="#">Kontak</a>
 
          @if (Route::has('login'))
                 
                     @auth
                         <a href="{{ url('/home') }}" class="nav-link fw-bold py-1 px-0">Dashboard</a>
                     @else
-                        <a href="{{ route('login') }}" class="nav-link fw-bold py-1 px-0">Log in</a>
+                        <a href="{{ route('login') }}" class="nav-link fw-bold py-1 px-0">Masuk</a>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="nav-link fw-bold py-1 px-0">Register</a>
+                            <a href="{{ route('register') }}" class="nav-link fw-bold py-1 px-0">Daftar</a>
                         @endif
                     @endauth
                 
