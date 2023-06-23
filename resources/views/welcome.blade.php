@@ -95,8 +95,10 @@
       }
     </style>
   </head>
-   <body class="d-flex h-100 text-center text-bg-dark bg-image" style="background-image: url({{asset('/img/brosur-smansaba.jpg')}});
-            height: 100vh">
+   <body class="d-flex h-100 text-center text-bg-dark"  style="
+    background-image: url('https://mdbcdn.b-cdn.net/img/Photos/Others/images/76.webp');
+    height: 100vh;
+  " >
      <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
       <symbol id="check2" viewBox="0 0 16 16">
         <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
@@ -152,7 +154,7 @@
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
   <header class="mb-auto">
     <div>
-      <h3 class="float-md-start mb-0">Cover</h3>
+      <a class="float-md-start mb-0" href="{{url('/')}}"><img src="{{asset('/img/alumnismansaba2005-tinypng.png')}}" width="50" height="45"></a>
       <nav class="nav nav-masthead justify-content-center float-md-end">
         <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Beranda</a>
         <a class="nav-link fw-bold py-1 px-0" href="#">Kontak</a>
