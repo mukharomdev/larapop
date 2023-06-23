@@ -130,3 +130,15 @@ dropdown
 .opacity-10 {
   opacity: .1;
 }
+
+/*
+Background image
+ */
+
+.bg-image{
+    background-image: url('public/img/brosur-smansaba.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
