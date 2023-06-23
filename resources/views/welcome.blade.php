@@ -11,7 +11,7 @@
 
         <!-- Styles -->
             <!-- Custom styles for this template -->
-      <link href="{{asset('/css/app.css')}}" rel="stylesheet">
+      <link href="{{mix('/css/app.css')}}" rel="stylesheet">
         <style>
             body {
                 font-family: 'Nunito', sans-serif;
@@ -185,6 +185,6 @@
     <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
   </footer>
 </div>
-<script src="{{asset('/js/app.js')}}"></script>
+<script src="{{mix('/js/app.js')}}"></script>
 </body>
 </html>

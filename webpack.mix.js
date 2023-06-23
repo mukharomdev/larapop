@@ -15,6 +15,6 @@ mix.js(['resources/js/jquery-3.3.1.slim.min.js',
 	'resources/js/popper.min.js',
 	'resources/js/bootstrap.bundle.min.js'
 	], 
-	'public/js/app.js')
+	'public/js/app.js').version()
 
-mix.styles(['resources/css/bootstrap.min.css','resources/css/cover.css'], 'public/css/app.css')
+mix.styles(['resources/css/bootstrap.min.css','resources/css/cover.css'], 'public/css/app.css').version()
