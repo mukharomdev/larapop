@@ -132,13 +132,18 @@ dropdown
 }
 
 /*
-Background image
+theme color mode
  */
 
-.bg-image{
-    background-image: url('public/img/brosur-smansaba.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: auto;
+[data-bs-theme=dark] .element {
+  color: var(--bs-primary-text-emphasis);
+  background-color: var(--bs-primary-bg-subtle);
 }
+
+@media (prefers-color-scheme: dark) {
+  .element {
+    color: var(--bs-primary-text-emphasis);
+    background-color: var(--bs-primary-bg-subtle);
+  }
+}
+

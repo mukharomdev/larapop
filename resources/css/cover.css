@@ -126,6 +126,18 @@ dropdown
 }
 
 /*
-Background image
+theme color mode
  */
+
+[data-bs-theme=dark] .element {
+  color: var(--bs-primary-text-emphasis);
+  background-color: var(--bs-primary-bg-subtle);
+}
+
+@media (prefers-color-scheme: dark) {
+  .element {
+    color: var(--bs-primary-text-emphasis);
+    background-color: var(--bs-primary-bg-subtle);
+  }
+}
 
