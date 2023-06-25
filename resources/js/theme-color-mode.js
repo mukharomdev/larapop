@@ -6,6 +6,8 @@
 
 (() => {
   'use strict'
+  const body = document.getElementsByTagName('body')
+  // const bodyImage = body[0].style
 
   const getStoredTheme = () => localStorage.getItem('theme')
   const setStoredTheme = theme => localStorage.setItem('theme', theme)
@@ -22,8 +24,12 @@
   const setTheme = theme => {
     if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
       document.documentElement.setAttribute('data-bs-theme', 'dark')
+      body[0].removeAttribute('style')
+      
     } else {
       document.documentElement.setAttribute('data-bs-theme', theme)
+      
+      body[0].classList.remove('.text-bg-dark')
     }
   }
 

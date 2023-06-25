@@ -16,6 +16,6 @@ mix.js(['resources/js/jquery-3.3.1.slim.min.js',
 	'resources/js/bootstrap.bundle.min.js',
 	'resources/js/theme-color-mode.js'
 	], 
-	'public/js/app.js').version()
+	'public/js/app.js').version().sourceMaps()
 
-mix.styles(['resources/css/bootstrap.min.css','resources/css/cover.css'], 'public/css/app.css').version()
+mix.styles(['resources/css/bootstrap.min.css','resources/css/cover.css'], 'public/css/app.css').version().sourceMaps()
