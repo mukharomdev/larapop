@@ -7,7 +7,6 @@
 (() => {
   'use strict'
   const body = document.getElementsByTagName('body')
-  // const bodyImage = body[0].style
 
   const getStoredTheme = () => localStorage.getItem('theme')
   const setStoredTheme = theme => localStorage.setItem('theme', theme)
