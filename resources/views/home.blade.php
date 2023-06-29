@@ -21,6 +21,7 @@
     </div>
 </div>
 @endsection --}}
+
 @extends('adminlte::page')
 
 @section('title', 'Dashboard')
