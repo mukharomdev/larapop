@@ -12,6 +12,7 @@
         <!-- Styles -->
             <!-- Custom styles for this template -->
       <link href="{{mix('/css/app.css')}}" rel="stylesheet">
+      <link rel="stylesheet" href="{{ asset('vendor/adminlte/dist/css/adminlte.min.css') }}">
         <style>
             body {
                 font-family: 'Nunito', sans-serif;
@@ -156,8 +157,8 @@
     <div>
       <a class="float-md-start mb-0" href="{{url('/')}}"><img src="{{asset('/img/alumnismansaba2005-tinypng.png')}}" width="50" height="45"></a>
       <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="{{url('/')}}">Beranda</a>
-        <a class="nav-link fw-bold py-1 px-0" href="{{url('/kontak')}}">Kontak</a>
+        <a class="nav-link fw-bold py-1 px-0 @yield('activeBeranda')" aria-current="@yield('pageBeranda')" href="{{url('/')}}">Beranda</a>
+        <a class="nav-link fw-bold py-1 px-0 @yield('activeKontak')" aria-current="@yield('pageKontak')" href="{{url('/kontak')}}">Kontak</a>
 
          @if (Route::has('login'))
                 
@@ -185,5 +186,6 @@
   </footer>
 </div>
 <script src="{{mix('/js/app.js')}}"></script>
+<script src="{{ asset('vendor/adminlte/dist/js/adminlte.min.js') }}"></script>
 </body>
 </html>

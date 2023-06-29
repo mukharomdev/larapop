@@ -1,5 +1,7 @@
 @extends('layouts.master')
 @section('title','Beranda')
+@section('activeBeranda','active')
+@section('pageBeranda','page')
 @section('content')
    <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
     <p class="lead">

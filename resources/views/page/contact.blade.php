@@ -1,5 +1,8 @@
 @extends('layouts.master')
 @section('title','Kontak')
+@section('activeKontak','active')
+@section('pageKontak','page')
 @section('content')
-   <p>KONTAK</p>
+   @component('component.usercontact')
+   @endcomponent
 @endsection
