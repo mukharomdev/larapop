@@ -37,6 +37,6 @@
     <link rel="stylesheet" href="{{mix('/css/admin_custom.css')}}">
 @stop
 
-@section('js')
-    <script> console.log('Hi!'); </script>
+@section('footer')
+<p>Footer</p>
 @stop
