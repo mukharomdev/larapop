@@ -21,7 +21,6 @@
     </div>
 </div>
 @endsection --}}
-
 @extends('adminlte::page')
 
 @section('title', 'Dashboard')
@@ -35,7 +34,7 @@
 @stop
 
 @section('css')
-    <link rel="stylesheet" href="{{mix('/css/admin_custom.css')}}">
+    <link rel="stylesheet" href="/css/admin_custom.css">
 @stop
 
 @section('js')
