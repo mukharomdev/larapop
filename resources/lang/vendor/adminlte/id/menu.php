@@ -16,4 +16,6 @@ return [
     'important'                     => 'Penting',
     'warning'                       => 'Peringatan',
     'information'                   => 'Informasi',
+    'search'                        => 'Cari',
+    'home'                          => 'Beranda',
 ];

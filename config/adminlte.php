@@ -312,10 +312,10 @@ return [
             'can'  => 'manage-blog',
         ],
         [
-            'text'        => 'Beranda',
+            'text'        => 'pages',
             'url'         => '',
             'icon'        => 'far fa-fw fa-file',
-            'label'       => '',
+            'label'       => 'home',
             'label_color' => 'success',
         ],
         ['header' => 'account_settings'],
