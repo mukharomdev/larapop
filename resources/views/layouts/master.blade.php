@@ -177,7 +177,7 @@
     </div>
   </header>
 
-  <main class="px-3">
+  <main class="px-3 mt-2">
       @yield('content')   
   </main>
 
