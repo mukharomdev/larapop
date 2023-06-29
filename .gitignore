@@ -3,6 +3,7 @@
 /public/storage
 /public/public.zip
 /storage/*.key
+storage.zip
 /vendor
 vendor.zip
 .env
