@@ -2,6 +2,7 @@
 /public/hot
 /public/storage
 /public/public.zip
+/public/vendor.zip
 /storage/*.key
 storage.zip
 /vendor

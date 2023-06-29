@@ -19,3 +19,4 @@ mix.js(['resources/js/jquery-3.3.1.slim.min.js',
 	'public/js/app.js').version().sourceMaps()
 
 mix.styles(['resources/css/bootstrap.min.css','resources/css/cover.css'], 'public/css/app.css').version().sourceMaps()
+mix.styles('resources/css/admin_custom.css', 'public/css/admin_custom.css').version().sourceMaps()
