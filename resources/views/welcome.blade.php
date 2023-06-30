@@ -3,8 +3,12 @@
 @section('activeBeranda','active')
 @section('pageBeranda','page')
 @section('content')
+   <div class ="container-fluid">
+   <img src="{{asset('/img/wahyudin-unnes.png')}}" class="image-fluid rounded mx-auto d-block" height="400" width="800">
+
    <p class="lead">Selamat datang di situs Alumni SMAN 1 Banjarharjo angkatan 2005,semoga silaturahmi kita tetap terjaga.</p>
     <p class="lead">
-      <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Selengkapnya ...</a>
+      <a href="{{route('login')}}" class="btn btn-lg btn-light fw-bold border-white bg-white">Selengkapnya ...</a>
     </p>
+    </div>
 @endsection

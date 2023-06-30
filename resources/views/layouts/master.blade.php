@@ -163,6 +163,7 @@
          @if (Route::has('login'))
                 
                     @auth
+                        <a href="{{ url('/alumni') }}" class="nav-link fw-bold py-1 px-0 @yield('activeAlumni')" aria-current="@yield('pageAlumni')">Alumni</a>
                         <a href="{{ url('/home') }}" class="nav-link fw-bold py-1 px-0">Dashboard</a>
                     @else
                         <a href="{{ route('login') }}" class="nav-link fw-bold py-1 px-0">Masuk</a>
